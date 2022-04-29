@@ -5,25 +5,21 @@ int main()
     char grade;
     printf("Enter marks: ");
     scanf("%f", &marks);
-    if(marks >= 90)
+    if(marks >=85 && marks <=100)
     {
         grade = 'A';
     }
-    else if(marks >= 80 && marks < 90)
+    else if(marks >= 70 && marks <=84)
     {
         grade = 'B';
     }
-    else if(marks >= 70 && marks < 80)
+    else if(marks >= 55 && marks <=69)
     {
         grade = 'C';
     }
-    else if(marks >= 60 && marks < 70)
+    else if(marks >= 40 && marks <= 54)
     {
         grade = 'D';
-    }
-    else if(marks >= 50 && marks < 60)
-    {
-        grade = 'E';
     }
     else 
     {
